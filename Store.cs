@@ -62,6 +62,7 @@ namespace Shops {
 
 		// =======================
 		// Todo: Problem 5: find why Customer name prints incorrectly
+		// Problem 8: some edge cases like services number could get out of index
 		// =======================
 		public static void EnterStore (int storeNum, Customer customer) {
 			Store TempStore = StoresList[storeNum];
