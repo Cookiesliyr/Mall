@@ -1,7 +1,9 @@
 ﻿using Mall;
 using System;
 
-// this example were made to showcase different aspect of the class that we learn in the lecture
+// some codes could be written in a better ways in general but was written in this way to showcase
+// different aspect of the class. for extra excersice you could attempt to replace some code
+// with cleaner version; i.e you could use dictionaries, anonymus class and lambda 
 namespace Shops {
 
 	// this class represent stores in a mall with services that cost money and time,
