@@ -28,7 +28,7 @@ namespace Shops {
 						string userInput = Console.ReadLine();
 						int tryVal =-1; 
 						if ( int.TryParse(userInput, out tryVal) && tryVal > 0 && tryVal < Store.StoresCount() ) 
-							Store.EnterStore(tryVal, this);
+							Store.EnterStore(tryVal-1, this);
 						
 					break;
 					case "2": 
